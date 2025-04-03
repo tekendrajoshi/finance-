@@ -1,0 +1,221 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-brand span {
+    font-weight: bold;
+}
+
+.blue { color: #f8f9fa; }
+.red { color: #ff4d4d; }
+.yellow { color: #ffd700; }
+.green { color: #28a745; }
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 8px 12px;
+    transition: 0.3s ease-in-out;
+    color: green !important;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #0056b3 !important;
+    color: #fff !important;
+}
+
+/* Flash Messages */
+.alert {
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #ffdd57;
+    color: #333;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+/* Main Content */
+main.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #007bff;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+table tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Forms */
+form {
+    margin: 20px 0;
+}
+
+form input,
+form select,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #343a40;
+}
+
+/* Keep the validator image styling unchanged */
+footer img {
+    width: auto; /* Let it be sized as per original asset */
+    transition: none; /* No extra animation on the validator button */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+}
+
+
+
+
+
